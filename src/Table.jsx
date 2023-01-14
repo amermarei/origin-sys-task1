@@ -20,14 +20,7 @@ function Table() {
 
     return (
         <Fragment>
-            <h1 style={{ fontSize: "60px" }}>Manage Users</h1>
-            {isLoading ? (
-                <div className="loading">
-                    <i className="fas fa-spinner text-black fa-spin fa-4x"></i>
-                </div>
-            ) : (
-                <TableActions users={users} setUsers={setUsers} />
-            )}
+            <TableActions users={users} setUsers={setUsers} />
         </Fragment>
     );
 }

@@ -9,31 +9,26 @@ function TableActions({ users, setUsers }) {
         {
             title: "ID",
             field: "id",
-            filterPlaceholder: "Filter by ID",
             align: "left",
         },
         {
             title: "Name",
             field: "first_name",
-            filterPlaceholder: "Filter by Name",
             align: "left",
         },
         {
             title: "Gender",
             field: "gender",
-            filterPlaceholder: "Filter by Gender",
             align: "left",
         },
         {
             title: "Email",
             field: "email",
-            filterPlaceholder: "Filter by Email",
             align: "left",
         },
         {
             title: "Birth Day",
             field: "date_of_birth",
-            filterPlaceholder: "Filter by Birth Day",
             align: "left",
         },
     ];
@@ -97,7 +92,6 @@ function TableActions({ users, setUsers }) {
                     headerStyle: {
                         backgroundColor: "#01579b",
                         color: "#FFF",
-                        fontSize: "20px"
                     },
                 }}
                 actions={[
